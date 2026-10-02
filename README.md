@@ -8,6 +8,7 @@ Simple web application to track table tennis matches, statistics, and rankings.
 
 The front end is served via the Vercel CDN. It is simple HTML/SCSS/JS. The database is a relational DB on supabase. The API is served via vercel serverless functions.
 
+```
 workpong/
 ├── public/                  # served by the CDN exactly as-is
 │   ├── index.html
@@ -24,6 +25,7 @@ workpong/
 ├── package.json             # needs "type": "module"
 ├── vercel.json              # optional: security headers, cleanUrls
 └── .env.example             # variable names only, no values
+```
 
 ## Contributing
 
